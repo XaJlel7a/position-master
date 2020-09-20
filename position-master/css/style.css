@@ -1,4 +1,51 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1500px;
+    margin: auto;
+}
+.up{
+    background: #af2024;
+    height: 40px;
+    margin: 0 auto;
+}
+section{
+    background-image: url("/images/section.png");
+    margin: auto;
+    background-size: 100%;
+}
+.logo{
+    z-index: 1;
+    position: absolute;
+    top: 25px;
+    left: 269px;
+    margin-top: 22px;
+
+}
+h1{
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    background: #3f0002;
+    padding-top: 27px;
+    padding-bottom: 30px;
+    padding-left: 11px;
+    color: white;
+}
+.sect{
+    margin: auto;
+    text-align: center;
+}
+.text{
+    max-width: 710px;
+    line-height: 17px;
+    padding-left: 28px;
+    text-align: center;
+    margin: auto;
+
+
+
+
 }
